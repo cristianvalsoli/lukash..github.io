@@ -1,0 +1,258 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,300,700,400);
+
+body{
+	background: rgb(111, 192, 222);
+	/*background-image:url(images/background.jpg);*/
+	background-image: url(images/black_gradient_background.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+}
+
+@font-face {
+	font-family: 'Digital-7 Mono';
+	src: url('fonts/digital-7_mono.ttf');
+}
+
+small{
+	font-size: 9px;
+}
+
+.lcd{
+	font-family: 'Digital-7 Mono', 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+
+a{
+	color: rgb(136, 0, 255);
+}
+
+.accent{
+	color: rgb(51, 0, 255);
+}
+
+h1{
+	font-size: 36px;
+	color: #FFF;
+}
+
+h2, h3{
+	color: #FFF;
+}
+
+#mainframe{
+	margin: auto;
+	width: 1024px;
+	box-shadow: 0 0 20px #000000;
+	background: #000;
+	background-image: url(images/icon-fade.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+#header{
+	height: 120px;
+}
+
+#logo{
+	font-size: 48pt;
+	font-weight: bold;
+	color: rgb(64, 0, 255);
+}
+
+.ccolor{
+	color: rgb(98, 0, 255);
+}
+
+#menu ul{
+	overflow: hidden;
+	list-style: none;
+	position: relative;
+}
+
+#menu ul li{
+	float: left;
+	position: relative;
+	list-style: none;
+	padding: 6px;
+	margin-right: 4px;
+}
+
+#menu ul li a{
+	padding: 6px;
+	text-decoration: none;
+	color: rgb(208, 30, 30);
+	font-weight: bold;
+	position: relative;
+	z-index: 5;
+}
+
+#menu ul li.backLava{
+	z-index: 3;
+	position: absolute;
+	background-color: #999;
+	border-radius: 5px;
+}
+
+#content{
+	padding: 32px;
+	padding-left: 64px;
+}
+
+#footer{
+	margin-top: 16px;
+	padding: 8px;
+	background-color: #666;
+	text-shadow: 0px 1px 0px #000;
+	color: #FFF;
+}
+
+.clear{
+	height: 0px;
+	clear: both;
+}
+
+.phone-main{
+	position: relative; width: 640px; height: 326px; margin: auto;
+}
+
+.phone-picture{
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 65px; top: 22px;
+	width: 495px; height: 279px;
+}
+
+.phone-background{
+	background-image: url(images/nexus5-composite-normal.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0; top: 0;
+	width: 640px; height: 326px;
+}
+
+.centeredp{
+	text-align: center;
+}
+
+.tableleft{
+	background-color: rgb(51, 51, 51);
+}
+
+.tableright{
+	background-color: #555;
+}
+
+.table{
+	border-spacing: 1px;
+	border-width: 0px;
+}
+
+.thead{
+	color: #FC0;
+	font-weight: bold;
+}
+
+.table td, .table th{
+	padding: 5px;
+}
+
+.faq{
+	background-color: #333;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.faq:target{
+	background-color: #9B6C00;
+}
+
+.question{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.answer{
+	
+}
+
+.areabg{
+	background-color: #999;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.clear{
+	clear: both;
+	height: 1px;
+}
+
+#rightpanel{
+	float: right;
+	margin: 16px;
+}
+
+#leftpanel{
+	
+}
+
+.download, .download a {  
+	background: url(/images/available_in_google_play_hover.png);
+	height: 95px;  
+	width: 250px;  
+	display: block;  
+}  
+.download a {  
+	background: url(/images/available_in_google_play.png);
+}
+
+.small-margin{
+	margin: 5px;
+}
+
+/*
+ ul.lavaLamp {
+   padding:5px; 
+ }
+
+ul.lavaLamp li.backLava{
+            background-color: #999;
+	border-radius: 5px;
+            z-index: 3;
+            position: absolute;
+        }
+ul.lavaLamp li a {
+   z-index:10;  
+ }*/
+
+.verticaltx{
+	float: left; 
+	position: relative;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	white-space:nowrap;
+	display:block;
+	text-align: left;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	padding-top: 30px;
+}
+
+.fimg{
+	margin: 6px;
+}
+
+#share42 {padding: 6px 6px 0; background: #040404; border: 1px solid #191919; border-radius: 4px; box-shadow: 0 0 3px #000;}
+#share42:hover {background: #434343; border: 1px solid #D4D4D4; box-shadow: 0 0 5px #DDD;}
+#share42 a {opacity: 0.5}
+#share42:hover a {opacity: 0.7}
+#share42 a:hover {opacity: 1}
